@@ -40,3 +40,8 @@ function add3PointG(){
     console.log(gScore)
     guestScore.textContent = gScore
 }
+
+function clearBoard(){
+    guestScore.textContent = 0
+    homeScore.textContent = 0
+}

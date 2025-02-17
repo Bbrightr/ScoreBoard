@@ -4,21 +4,32 @@
     </head>
     <body>
         <div class="container">
-            <div class="score-container">
-                <h3>HOME</h3>
-                <h2 id="home-score" class="scores">0</h2>
-                <button class="points-btn" id="add1PointH" onclick="add1PointH()">+1</button>
-                <button class="points-btn" id="add2PointH" onclick="add2PointH()">+2</button>
-                <button class="points-btn" id="add3PointH" onclick="add3PointH()">+3</button>
+            <div class="main-scorecontainer">
+                <div class="score-container">
+                    <h3>HOME</h3>
+                    <h2 id="home-score" class="scores">0</h2>
+                    <button class="points-btn" id="add1PointH" onclick="add1PointH()">+1</button>
+                    <button class="points-btn" id="add2PointH" onclick="add2PointH()">+2</button>
+                    <button class="points-btn" id="add3PointH" onclick="add3PointH()">+3</button>
+                </div>
+                <div class="score-container">
+                    <h3>GUEST</h3>
+                    <h2 id="guest-score" class="scores">0</h2>
+                    <button class="points-btn" id="add1PointG" onclick="add1PointG()">+1</button>
+                    <button class="points-btn" id="add2PointG" onclick="add2PointG()">+2</button>
+                    <button class="points-btn" id="add3PointG" onclick="add3PointG()">+3</button>
+                </div>
             </div>
-            <div class="score-container">
-                <h3>GUEST</h3>
-                <h2 id="guest-score" class="scores">0</h2>
-                <button class="points-btn" id="add1PointG" onclick="add1PointG()">+1</button>
-                <button class="points-btn" id="add2PointG" onclick="add2PointG()">+2</button>
-                <button class="points-btn" id="add3PointG" onclick="add3PointG()">+3</button>
+            <div class="other-functions">
+                <div class="newGame">
+                    <button id="newGame-btn" class="newgame-btn" onclick="clearBoard()">NEW GAME</button>
+                </div>
+                <div class="gameTimer">
+                    <h2 id="timer" class="showTimer">00:00</h2>
+                </div>
             </div>
         </div>
+        
         <script src="javascript.js"></script>
     </body>
 </html>
