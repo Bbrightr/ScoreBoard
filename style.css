@@ -101,12 +101,13 @@ h2 {
 .newGame-btn,
 .gameTimer {
     padding: 20px;
-    width: 200px;
+    width: 400px;
     margin-top: 50px;
 }
 
 .newGame-btn {
-
+    padding-left: 50px ;
+    padding-right: 50px
 }
 
 .gameTimer{
