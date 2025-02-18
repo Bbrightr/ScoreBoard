@@ -98,16 +98,27 @@ h2 {
 
 }
 
-.newGame-btn,
+
 .gameTimer {
     padding: 20px;
     width: 400px;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
-.newGame-btn {
+.newGame {
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: bold; */
+}
+
+.newGame-btn,
+.clrbrd-btn {
     padding-left: 50px ;
-    padding-right: 50px
+    padding-right: 50px;
+    padding: 20px;
+    /* width: 220px; */
+    width: 220px;
+    font-weight: 600;
 }
 
 .gameTimer{
